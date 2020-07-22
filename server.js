@@ -7,6 +7,8 @@ const handle = app.getRequestHandler()
 
 app.prepare()
 .then(() => {
+
+  // commit
   const server = express()
 
   server.get('*', (req, res) => {
